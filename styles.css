@@ -1,0 +1,112 @@
+:root {
+  --primary-color: #6003C3;
+  --white: #FFFFFF;
+  --box-color-1: #FCFF00;
+  --box-color-2: #57FFC9;
+  --box-color-3: #A5FF01;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Bebas Neue', Impact, sans-serif;
+}
+
+header {
+  background-color:#6003C3;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  font-size: 5em;
+  line-height: 75px;
+  max-width: 300px;
+}
+
+#message {
+  color: #6003C3;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 25px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #6003C3;
+  font-size: 5em;
+  font-weight: lighter;
+}
+
+.box {
+  padding: 20px 50px;
+  margin: 15px;
+  border: 15px solid #6003C3;
+  border-radius: 8px;
+  box-shadow: 5px 5px 20px rgb(122, 122, 122);
+}
+
+#box-1 {
+  background-color:#FCFF00;
+}
+
+#box-2 {
+  background-color:#57FFC9;
+}
+
+#box-3 {
+  background-color:#A5FF01;
+}
+
+
+@media (min-width: 740px) {
+  main {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .boxes {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0;
+  }
+
+  #message {
+    font-size: 2em;
+  }
+
+  .box {
+  padding: 30px 60px;
+  }
+}
+
+
+@media (min-width: 1325px) {
+  main {
+    max-width: 900px;
+  }
+
+  .boxes {
+      font-size: 7em;
+  }
+
+  .box {
+    padding: 40px 85px;
+    border: 10px solid #6003C3;
+  }
+
+
+}
