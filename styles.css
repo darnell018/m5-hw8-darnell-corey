@@ -71,6 +71,15 @@ h1 {
   background-color:#A5FF01;
 }
 
+.score {
+    color: #6003C3;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
 
 @media (min-width: 740px) {
   main {
